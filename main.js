@@ -11,7 +11,6 @@ async function fetchData(){
     let product = document.createElement('img')
     product.src = element.image
 
-    let  = document.createElement('h2')
 
         product.innerText = element.price
         collection.append(product)
