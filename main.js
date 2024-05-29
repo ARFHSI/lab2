@@ -13,7 +13,7 @@ async function fetchData(){
 
     let  = document.createElement('h2')
 
-        productP.innerText = element.price
+        product.innerText = element.price
         collection.append(product)
     });
 
