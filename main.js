@@ -4,9 +4,9 @@ async function fetchData(){
     let res = await fetch(link)
     let data = await res.json();
     let collection= document.querySelector(".collection")
-    // console.log(data.results[0].name)
+    console.log(data)
 
-    data.results.forEach(element => {
+    data.forEach(element => {
         console.log(element);
     let product = document.createElement('img')
     product.src = element.image
